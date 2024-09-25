@@ -1,0 +1,100 @@
+#contenedor div{
+    padding: 12px;
+    width: 352px;
+    margin-top: 10px;
+}
+#boton {
+    background-color: #cc83e9;
+    color: rgb(12, 11, 11);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-body button{
+    width: 328px;
+}
+body {
+    background-color: #f0f8ff;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-image: url('https://fondosaesthetic.net/wp-content/uploads/2024/01/Fondos-de-pantalla-de-pikachu-4-474x1024.png');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+
+h1 {
+    color: #045083;
+    font-weight: bold;
+}
+#contenedor .card {
+    background-color: #cc83e9;
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#contenedor .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body button {
+    width: 100%;
+    background-color: #cc83e9;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.paginacion-btn {
+    padding: 10px 25px;
+    border: 2px solid #3498db;
+    color: #3498db;
+    background-color: transparent;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.paginacion-btn:hover {
+    background-color: #3498db;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-success:hover {
+    background-color: #d0db6e;
+    color: white;
+}
+
+#boton {
+    margin-top: 15px;
+}
+label{
+    color: #0e0d0d;
+    font-weight: bold;
+}
+.btn-custom {
+    background-color: #cc83e9; 
+    color: #000000; 
+    border: none; 
+    transition: background-color 0.3s; 
+}
